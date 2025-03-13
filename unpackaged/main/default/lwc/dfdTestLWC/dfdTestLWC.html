@@ -1,0 +1,35 @@
+<template>
+
+    <p><b>Case Details(LWC)</b></p>
+                    <lightning-layout>
+                            <template if:true={showSpinner}>
+                            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                        </template>                        
+                    <lightning-layout-item size="6"> 
+                        <div class="slds-p-horizontal_x-small">
+                            <lightning-input data-id="Subject" label="Subject" value={subject} onchange={handleInputChange}> </lightning-input>
+                            <lightning-input data-id="Description" label="Description" value={description} onchange={handleInputChange}> </lightning-input>
+                           <!-- <lightning-input label="Origin" value={origin}> </lightning-input>-->
+                            </div>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6"> 
+                        <div class="slds-p-horizontal_x-small">
+                            <!--<lightning-input label="Status" value={status}> </lightning-input>-->
+                           <!-- <lightning-select data-id="Status" name="Status" label="Status" value={status} required="true" onchange={handleInputChange}
+                            options={statusOptions}>
+                            </lightning-select>-->
+
+                            <!--<lightning-input label="Priority" value={priority}> </lightning-input></div>-->
+                            <lightning-select data-id="Origin" name="Origin" label="Origin" value={origin} required="true" onchange={handleInputChange}
+                                options={originOptions}>
+                            </lightning-select>                           
+                            <lightning-select data-id="Priority" name="Priority" label="Priority" value={priority} required="true" onchange={handleInputChange}
+                            options={priorityOptions}>                              
+                            </lightning-select>
+
+                        </div>
+                    </lightning-layout-item>
+                    </lightning-layout><br/>
+                    <lightning-button variant="brand" label="Create" class="slds-align_absolute-center" title="Create" onclick={handleCaseCreation}></lightning-button>
+
+</template>

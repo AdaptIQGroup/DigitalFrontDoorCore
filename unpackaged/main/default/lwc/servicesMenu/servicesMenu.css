@@ -1,0 +1,61 @@
+.card-container {
+    display: flex;
+   
+}
+/*.fade-in-image {
+  opacity: 100%;
+}
+
+.fade-in-image:hover {
+  opacity: 50%;
+  transition: opacity 1s;
+}*/
+.inner-container{
+ &:hover {
+       transform: scale(1.02); 
+   transition: transform 0.2s ease;
+
+     
+    }
+}
+.mycss {
+  
+  /*--slds-c-button-brand-color-background: var(--lwc-palettePurple50); // internal only token
+  --slds-c-button-brand-color-background-hover: var(--lwc-palettePurple30);// internal only token
+  --slds-c-button-brand-color-border: var(--lwc-palettePurple50); // internal only token
+  --slds-c-button-brand-color-border-hover: var(--lwc-palettePurple30); // internal only token
+  --slds-c-button-brand-text-color: var(--lwc-paletteNeutral100);  --slds-c-card-height:300px; // internal only token
+  --slds-c-card-color-background: #F0F8FF;*/
+ --slds-c-card-color-background:var(--backGroundColour, #F0F8FF);
+  transition: background-color 0.1s ease-in-out;
+
+    flex: 1; 
+   
+     &:hover {
+       --slds-c-card-color-background: var(--cardFadeOutColor, #F0F8FF);
+     
+
+     
+    }
+  
+  }
+  .backgroundImg{
+   
+    background-position: relative;
+    background-size: contain;
+    box-shadow: inset 0 0 0 20px rgb(244 244 165/ 30%);
+    /*  box-shadow: inset 0 0 0 20px rgb(157 51 51 / 10%);
+    background-color: #F0F8FF; background-size: auto;
+    background-position: relative;
+    --slds-c-card-color-background:var(--backGroundColour, #F0F8FF);*/
+    &:hover {
+       transform: scale(1.02); 
+   transition: transform 0.3s ease;
+
+     
+    }
+}
+.textoverlay{
+    text-align: left;
+    padding-top: 5%;
+}

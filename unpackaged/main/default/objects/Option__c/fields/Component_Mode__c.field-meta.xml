@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Component_Mode__c</fullName>
+    <label>Component Mode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Embeded</fullName>
+                <default>false</default>
+                <label>Embeded</label>
+            </value>
+            <value>
+                <fullName>On Button Press</fullName>
+                <default>false</default>
+                <label>On Button Press</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

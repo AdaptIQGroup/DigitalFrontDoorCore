@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Root Option</label>
+    <protected>false</protected>
+    <values>
+        <field>Card_Background_Color_Hex__c</field>
+        <value xsi:type="xsd:string">A4DDED</value>
+    </values>
+    <values>
+        <field>Card_Fade_Out_Color__c</field>
+        <value xsi:type="xsd:string">D3D3D3</value>
+    </values>
+    <values>
+        <field>Description_Font_Color__c</field>
+        <value xsi:type="xsd:string">000000</value>
+    </values>
+    <values>
+        <field>Description_Font_Size__c</field>
+        <value xsi:type="xsd:double">18.0</value>
+    </values>
+    <values>
+        <field>Header_Font_Color__c</field>
+        <value xsi:type="xsd:string">000000</value>
+    </values>
+    <values>
+        <field>Header_Font_Size__c</field>
+        <value xsi:type="xsd:double">24.0</value>
+    </values>
+    <values>
+        <field>In_Option_Link_font_size__c</field>
+        <value xsi:type="xsd:double">13.0</value>
+    </values>
+    <values>
+        <field>In_Options_Font_Hex_Code__c</field>
+        <value xsi:type="xsd:string">01796F</value>
+    </values>
+    <values>
+        <field>Links_per_Option__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+    <values>
+        <field>Option_font_size__c</field>
+        <value xsi:type="xsd:double">15.0</value>
+    </values>
+    <values>
+        <field>Options_Font_Hex_Code__c</field>
+        <value xsi:type="xsd:string">00308F</value>
+    </values>
+    <values>
+        <field>Options_Per_Row_Mobile__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Options_Per_Row_Tab__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>Options_per_row__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+    <values>
+        <field>Redirect_Button_Name__c</field>
+        <value xsi:type="xsd:string">CTA</value>
+    </values>
+    <values>
+        <field>Right_Content_Font_Color__c</field>
+        <value xsi:type="xsd:string">000000</value>
+    </values>
+    <values>
+        <field>Right_Content_Font_Size__c</field>
+        <value xsi:type="xsd:double">18.0</value>
+    </values>
+    <values>
+        <field>Root_Option_RecordId__c</field>
+        <value xsi:type="xsd:string">a00J6000001euENIAY</value>
+    </values>
+    <values>
+        <field>Sub_Header_Font_Color__c</field>
+        <value xsi:type="xsd:string">000000</value>
+    </values>
+    <values>
+        <field>Sub_Header_Font_Size__c</field>
+        <value xsi:type="xsd:double">22.0</value>
+    </values>
+</CustomMetadata>
